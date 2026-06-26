@@ -14,4 +14,5 @@ set tabstop=4
 " Set auto-indent (>>) to 4 spaces
 set shiftwidth=4
 
-
+" Set colorscheme
+colorscheme default

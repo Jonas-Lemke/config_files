@@ -11,6 +11,14 @@ HISTSIZE=1000
 HISTFILESIZE=2000
 
 
+### Aliases ###
+
+# be paranoid
+alias cp='cp -ip'
+alias mv='mv -i'
+alias rm='rm -i'
+
+
 ### Other ### 
 
 # check the window size after each command and, if necessary,
@@ -21,6 +29,7 @@ shopt -s checkwinsize
 # (setting default editor streamlines workflows 
 # like editing cron entries or handling git commit messages)
 export EDITOR='vim'
+
 
 ### Colors ###
 
@@ -72,6 +81,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
 fi
+
 
 ### PATH variable modifications ###
 

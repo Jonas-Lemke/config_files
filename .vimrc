@@ -8,6 +8,9 @@ syntax on
 " Show line numbers
 set number
 
+" Show typed command in bottom right
+set showcmd
+
 " Set tab to space
 set expandtab
 

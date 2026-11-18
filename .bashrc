@@ -82,6 +82,10 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+# use less for man syntax highlighting
+export MANPAGER="less -R --use-color -Dd+r -Du+b"
+export GROFF_NO_SGR=1 # needed for -Dd and -Du to work
+
 
 ### PATH variable modifications ###
 
